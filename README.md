@@ -1,5 +1,4 @@
-# MiTA: Efficient Fast-Weight Scaling via a Mixture of Top-$k$ Activations
-
+# MiTA: Efficient Fast-Weight Scaling via a Mixture of Top-k Activations
 
 
 <p align="center">
