@@ -2,6 +2,6 @@
 
 
 <p align="center">
-    <img src="figures/mita.png" width="800"\>
+    <img src="figures/mita.png" width="500"\>
 <br> <em>MiTA Attention </em>
 <p align="center">
