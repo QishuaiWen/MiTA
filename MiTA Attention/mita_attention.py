@@ -132,7 +132,7 @@ class MiTA_Attention(nn.Module):
         q, k, v = qkv.unbind(0)  # [B, N, C]
         
         H = W = int(N ** 0.5)
-        router = pool(q[:, :-1, :].reshape(B, H, W, C).permute(0, 3, 1, 2)).reshape(B, C, -1).permute(0, 2, 1)  # notice: include the cls token, ditch the last token
+        router = self.pool(q[:, :-1, :].reshape(B, H, W, C).permute(0, 3, 1, 2)).reshape(B, C, -1).permute(0, 2, 1)  # notice: include the cls token, ditch the last token
 
         q = q.reshape(B, N, self.num_heads, self.head_dim).permute(0, 2, 1, 3)
         k = k.reshape(B, N, self.num_heads, self.head_dim).permute(0, 2, 1, 3)
