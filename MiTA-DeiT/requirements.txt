@@ -1,0 +1,6 @@
+--index-url https://download.pytorch.org/whl/cu118
+--extra-index-url https://pypi.org/simple
+torch==2.0.1+cu118
+torchvision==0.15.2
+timm==0.4.12
+./flash_attn-2.6.3+cu118torch2.0cxx11abiFALSE-cp38-cp38-linux_x86_64.whl
