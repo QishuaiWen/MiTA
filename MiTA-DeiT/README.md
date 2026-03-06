@@ -1,4 +1,4 @@
-# MiTA-DeiT: DeiT models with MiTA Attention 
+# MiTA-DeiT: DeiT Models with MiTA Attention 
 
 
 
@@ -8,7 +8,7 @@
 
 ## Acknowledgements
 
-This part of our repo is largely based on the 
+The code is largely adapted from the great [DeiT](https://github.com/facebookresearch/deit/tree/main) project of facebookresearch.
 
 
 
