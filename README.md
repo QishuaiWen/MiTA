@@ -1,5 +1,6 @@
-# MiTA: Efficient Fast-Weight Scaling via a Mixture of Top-k Activations
+# MiTA Attention: Efficient Fast-Weight Scaling via a Mixture of Top-k Activations
 
+This repository is the official PyTorch implementation the paper [MiTA Attention: Efficient Fast-Weight Scaling via a Mixture of Top-k Activations](https://arxiv.org/abs/2602.01219).
 
 <p align="center">
     <img src="figures/mita.png" width="500"\>
