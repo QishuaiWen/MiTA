@@ -1,4 +1,3 @@
-torch
 click
 numpy
 einops
