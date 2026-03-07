@@ -10,7 +10,7 @@ MiTA Attention is a novel efficient attention mechanism that adopts a **compress
 <br> <em>Overview of MiTA Attention </em>
 <p align="center">
 
-# Usage
+## Usage
 We provide a pure implementation of MiTA Attention in package [mita](https://github.com/QishuaiWen/MiTA/tree/main/mita), which can be a plug-in module in other tasks.
 
 For exmaple:
