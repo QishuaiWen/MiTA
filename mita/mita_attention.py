@@ -70,7 +70,7 @@ class MiTA_Attention(nn.Module):
 
         # assign queries to experts
         gate = router @ query.transpose(-2, -1)  # [B, H, M, N]
-        assert router_topk == 1, f"This version only supports router_topk=1, but receives router_topk={router_topk}."
+        assert router_topk == 1, f"This version only supports router_topk=1, but receives router_topk={router_topk}." # The version supporting router_topk > 1 can be found at https://github.com/QishuaiWen/MiTA/blob/main/mita/_mita_attention.py
         expert_idx = torch.argmax(gate, dim=-2)  # [B, H, N]
 
         # align with MoBA ...
