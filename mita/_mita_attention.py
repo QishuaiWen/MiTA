@@ -12,7 +12,7 @@ from typing import Any, Callable, Dict, Optional, Set, Tuple, Type, Union, List
 from .mixed_attention import MixedAttention
 
 
-class MiTA_Attention_(nn.Module):
+class MiTA_Attention(nn.Module):
     def __init__(
             self,
             dim: int,
