@@ -6,7 +6,7 @@ This repository is the official PyTorch implementation of the paper:
 MiTA Attention is a novel efficient attention mechanism that adopts a **compress-and-route strategy**, consisting of a compressed shared fast-weight expert and several routed **deformable** fast-weight experts.
 
 <p align="center">
-    <img src="figures/illustration_MiTA.png" width="650"\>
+    <img src="figures/illustration_MiTA.png" width="700"\>
 <br> <em>Overview of MiTA Attention </em>
 <p align="center">
 
