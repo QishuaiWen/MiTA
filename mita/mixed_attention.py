@@ -181,7 +181,7 @@ class MixedAttention(torch.autograd.Function):
             window_size=(-1, -1),
             softcap=0.0,
             alibi_slopes=None,
-            deterministic=True,
+            deterministic=False,
         )
 
         headdim = q.shape[-1]
@@ -216,7 +216,7 @@ class MixedAttention(torch.autograd.Function):
             window_size=(-1, -1),
             softcap=0.0,
             alibi_slopes=None,
-            deterministic=True,
+            deterministic=False,
         )
 
         dmkv = torch.stack((dmk, dmv), dim=1)
