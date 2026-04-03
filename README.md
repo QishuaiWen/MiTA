@@ -1,4 +1,6 @@
-# MiTA
+<div align="center">
+<h1>MiTA Attention</h1>
+</div>
 
 This repository is the official PyTorch implementation of the paper:
 [MiTA Attention: Efficient Fast-Weight Scaling via a Mixture of Top-k Activations](https://arxiv.org/abs/2602.01219v3).
