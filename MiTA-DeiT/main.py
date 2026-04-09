@@ -43,7 +43,6 @@ from mita import FocusedLinearAttention
 from mita import MHLA, MHLA_Conv, forward_features
 from mita import Linear_Attention
 from mita import MiTA_Attention_Route
-from mita import NaLaLinearAttention
 
 import types
 
