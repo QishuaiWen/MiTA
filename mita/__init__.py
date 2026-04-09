@@ -7,7 +7,6 @@ from .focused_linear_attention import FocusedLinearAttention
 from .mhla_conv import MHLA_Conv, forward_features
 from .mhla import MHLA
 from .linear_attention import Linear_Attention
-from .NaLa import NaLaLinearAttention
 
 __all__ = [
     'MiTA_Attention', 
