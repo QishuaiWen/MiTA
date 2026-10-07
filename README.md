@@ -20,7 +20,14 @@ This is our third work on principled and efficient attention design. See our pre
 ## 📣 News
 [2026/9/25] Our paper has been accepted to NeurIPS 2026! 
 
-## Experimental Highlights
+## 🌟 Highlights
++ A five-dimensional taxonomy for efficient attention methods:
+
+<p align="center">
+    <img src="figures/methods.png" width="600"\>
+<br> <em>A unifying taxonomy from a fast-weight perspective</em>
+<p align="center">
+  
 + Supervisor performance on vision tasks:
 
 <p align="center">
@@ -31,7 +38,7 @@ This is our third work on principled and efficient attention design. See our pre
 + An emergent token pruning effect of MiTA:
   
 <p align="center">
-    <img src="figures/token_pruning.png" width="800"\>
+    <img src="figures/token_pruning.png" width="600"\>
 <br> <em>The token pruning effect of MiTA</em>
 <p align="center">
 
