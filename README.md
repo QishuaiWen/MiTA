@@ -13,7 +13,7 @@ This is our third work on principled and efficient attention design. See our pre
 **Mi**xture-of-**T**op-k **A**ttention (**MiTA**) is a novel attention mechanism that adopts a fast-weight perspective to unify prior efficient attention methods and identify their limitations. Specifically, MiTA improves the flexibility of prior MoE attention from rigid to **deformable fast-weight experts**, as well as the scalability of prior top-k attention from query-specific set to **reusable top-k set**.
 
 <p align="center">
-    <img src="figures/mita.png" width="450"\>
+    <img src="figures/mita.png" width="300"\>
 <br> <em>Overview of MiTA</em>
 <p align="center">
 
@@ -22,21 +22,18 @@ This is our third work on principled and efficient attention design. See our pre
 
 ## 🌟 Highlights
 + A five-dimensional taxonomy for efficient attention methods:
-
 <p align="center">
     <img src="figures/methods.png" width="600"\>
 <br> <em>A unifying taxonomy from a fast-weight perspective</em>
 <p align="center">
   
 + Supervisor performance on vision tasks:
-
 <p align="center">
     <img src="figures/in1k.png" width="300"\>
 <br> <em>Comparisons on ImageNet-1K</em>
 <p align="center">
   
 + An emergent token pruning effect of MiTA:
-  
 <p align="center">
     <img src="figures/token_pruning.png" width="600"\>
 <br> <em>The token pruning effect of MiTA</em>
