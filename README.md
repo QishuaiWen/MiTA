@@ -14,11 +14,26 @@ This is our third work on principled and efficient attention design. See our pre
 
 <p align="center">
     <img src="figures/mita.png" width="450"\>
-<br> <em>Overview of MiTA </em>
+<br> <em>Overview of MiTA</em>
 <p align="center">
 
 ## 📣 News
 [2026/9/25] Our paper has been accepted to NeurIPS 2026! 
+
+## Experimental Highlights
++ Supervisor performance on vision tasks:
+
+<p align="center">
+    <img src="figures/in1k.png" width="300"\>
+<br> <em>Comparisons on ImageNet-1K</em>
+<p align="center">
+  
++ An emergent token pruning effect of MiTA:
+  
+<p align="center">
+    <img src="figures/token_pruning.png" width="800"\>
+<br> <em>The token pruning effect of MiTA</em>
+<p align="center">
 
 ## 🔧 Usage
 We provide a pure implementation of MiTA in the package [mita](https://github.com/QishuaiWen/MiTA/tree/main/mita), which can be a plug-in module in other tasks.
