@@ -4,7 +4,7 @@
 
 This repository is the official PyTorch implementation of our NeurIPS 2026 paper:
 + Mixture-of-Top-k Attention: Efficient Attention via Scalable Fast Weights
-[[arXiv](https://arxiv.org/abs/2602.01219v5)].
+[[arXiv](https://arxiv.org/abs/2602.01219v5) | [openreview](https://openreview.net/forum?id=gIcv8jfze7#discussion) ].
 
 This is our third work on principled and efficient attention design. See our previous works:
 + DEPICT (NeurIPS 2024) [[github](https://github.com/QishuaiWen/DEPICT) | [arXiv](https://arxiv.org/abs/2411.03033)];
